@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+    height: 100px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left{
+    width: 7%;
+  }
+  .right {
+    width: 15%;
+  }
+  
+  .middle {
+    width: 78%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  a:link, a:visited {
+    background-color:rgb(52, 56, 54);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color:rgb(52, 56, 54);
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    height: 200px;
+  }
+  .row1{
+      height: 450px;
+  }
+  body{
+      background-color:rgb(241, 241, 183);
+      background-image: url("bg2.jpg");
+  }
